@@ -4,7 +4,7 @@ Feature: Login to SauceDemo
         * configure driver = { headless: false, screenshotOnEveryStep: true, type: 'chromium' }
 
 
-  Scenario: Successful login
+  Scenario: Scenar01 - Successful login
     Given driver 'https://www.saucedemo.com/'
     And input("input[data-test='username']", "standard_user")
     And input("input[data-test='password']", "secret_sauce")
