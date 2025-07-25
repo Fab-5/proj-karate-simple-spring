@@ -1,4 +1,4 @@
-Feature: Login to SauceDemo
+Feature: tests auto sur Login to SauceDemo
 
   Background:
         * configure driver = { headless: false, screenshotOnEveryStep: true, type: 'chromium' }
